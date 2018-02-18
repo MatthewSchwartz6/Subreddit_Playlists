@@ -113,13 +113,17 @@ class Subreddit_YT_Playlist:
             request = requests.get(URL[i],headers = {'User-agent':'your bot 0.1'})
             soup = BeautifulSoup(request.text,'html.parser')
             links = soup.find_all('div',attrs={'data-subreddit':self.subreddit_name})
-
-            lastDiv = links[(len(links)-1)]
+            try:
+                lastDiv = links[(len(links)-1)]
+            except IndexError as e:
+                message = "Something went wrong : " +  str(e) + ". No links were found. We're working on that."
+                print (message)
             #print (lastDiv['data-fullname'])
             i+=1
 
             for link in links:
                 music = link['data-url']
+
                 if ((str(music)[:23]) == "https://www.youtube.com"):
                     video_ids.append((str(music)[32:43]))
                     #print (str(music)[32:43])
