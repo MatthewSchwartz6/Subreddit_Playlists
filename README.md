@@ -28,7 +28,8 @@ The steps are listed quite clearly at https://developers.google.com/youtube/v3/g
 
 Run: `python Subreddit_Playlists.py -h` for help with the command line arguments.
 
-Example session: 
+Example session:
+
 `python Subreddit_Playlists.py -l (gets a list of all music subreddits)`
 `python Subreddit_Playlists.py -n liquiddnb -s new -t all -p 10`
 
