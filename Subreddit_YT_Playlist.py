@@ -135,8 +135,7 @@ class Subreddit_YT_Playlist:
 
     def get_authentication_services(self):
 
-        flow = InstalledAppFlow.from_client_secrets_file(self.client_secrets_file, self.SCOPES)
-        ## run console gives you the auth link
+        flow = InstalledAppFlow.from_client_secrets_file(self.client_secrets_file, self.SCOPES      
         credentials = flow.run_local_server()
         return build(self.API_SERVICE_NAME, self.API_VERSION, credentials = credentials)
 
