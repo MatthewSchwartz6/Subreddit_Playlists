@@ -1,8 +1,5 @@
 # Subreddit_Playlists
-Create youtube playlist from your favorite subreddit.
-
-
-My favorite way to listen to music from reddit. 
+Create a youtube playlist from your favorite subreddit.
 
 This program runs on your command line(terminal or powershell). These steps are meant for people who might not have experience in this thing.
 
