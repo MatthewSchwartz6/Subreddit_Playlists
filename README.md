@@ -6,7 +6,7 @@ My favorite way to listen to music from reddit.
 
 This program runs on your command line(terminal or powershell). These steps are meant for people who might not have experience in this thing.
 
-1. Create client_secret.json file for the Youtube Data Api. Add it to the same main dir as this project.
+1. Create client_secret.json file for the Youtube Data Api. Add it to the project directory that you will create below.
 The steps are listed quite clearly at https://developers.google.com/youtube/v3/getting-started
 
 2. Make sure you have pip (python package manager) installed. pip or pip3 work. Type `which pip` to see if it is already installed. 
