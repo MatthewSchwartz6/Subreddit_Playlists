@@ -18,7 +18,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 
 
 class Subreddit_YT_Playlist:
-    client_secrets_file = "client_secret.json"
+    client_secrets_file = ""
     SCOPES = ['https://www.googleapis.com/auth/youtube']
     API_SERVICE_NAME = 'youtube'
     API_VERSION = 'v3'
@@ -35,10 +35,9 @@ class Subreddit_YT_Playlist:
         """)
 
         parser.add_argument("-n","--subreddit-name",help = "A valid subreddit name is a mandatory argument unless you use the \'-l\' option to list valid subreddit names.")
-        parser.add_argument("-l","--list-valid-names",action="store_true",help = "This option prints out all valid subreddit names. Can be used as a standalone flag for your reference.")
-        parser.add_argument("-s","--sorting",default = "hot",choices = ["hot","new"],help = "Each subreddit has its own sorting method. Only acceptable arguments: new or hot.")
-        parser.add_argument("-t","--time",default = "week",choices = ["day","week","month", "year", "all"],help = "Acceptable arguments: day, hour, week, month, year, all")
-        parser.add_argument("-p","--page-depth",default=1,type=int,help="Integer. Amount of pages (with 25 posts per page) to go through.")
+        parser.add_argument("-l","--list-valid-names",action="store_true",help = "Print the most common music subreddits.")
+        parser.add_argument("-s","--sorting",default = "hot",choices = ["hot","new"],help = "Each subreddit has its own sorting method. Acceptable arguments: new or hot.")
+        parser.add_argument("-r","--max-results",default=25,type=int,help="Integer. Max results to parse through. Note: Will only find youtube links.")
 
 
         args = parser.parse_args()
@@ -52,13 +51,9 @@ class Subreddit_YT_Playlist:
                 print ('\n'.join(valid_subreddits))
                 sys.exit()
 
-        if (args.time):
-            self.is_time = True
-
         self.subreddit_name = args.subreddit_name
         self.subreddit_nav = args.sorting
-        self.subreddit_time_pref = args.time
-        self.page_depth = args.page_depth
+        self.max_results = args.max_results
 
         ##fIx miSTYpeD suBRedDit nAmES
         for subreddit in valid_subreddits:
@@ -68,74 +63,44 @@ class Subreddit_YT_Playlist:
         return args
 
     def get_valid_subreddits(self):
-        valid_subreddits = []
-        request = requests.get("https://www.reddit.com/r/Music/wiki/musicsubreddits/",headers={'User-Agent':'your-bot 01'})
-        soup = BeautifulSoup(request.text,'html.parser')
-        text_area_tag = soup.find('textarea')
-        text = text_area_tag.string
-        text_lines = (str(text).splitlines())
-        for words in text_lines:
-            if (words[:5]=='* /r/'):
-                valid_subreddits.append(words[5:])
-        return valid_subreddits
-
+        with open('music_subreddit_list.txt','r') as music_file:
+            valid = music_file.readlines()
+            valid = [v[:-1] for v in valid]
+            return valid
+            
     def get_video_ids(self):
-        #scrape subreddits for youtube links  and return array of video id's
 
         video_ids = []
-        URL = []
-        page_url = "https://www.reddit.com/r/"
-
-        page_url += self.subreddit_name + "/" + self.subreddit_nav + "/"
-        if (self.is_time):
-            if (self.subreddit_nav == "new"):
-                page_url += "?sort=new&t=" + self.subreddit_time_pref
-            elif (self.subreddit_nav == "hot"):
-                page_url += "?sort=hot&t=" + self.subreddit_time_pref
+        url = "https://gateway.reddit.com/desktopapi/v1/subreddits/{}?sort={}".format(self.subreddit_name,self.subreddit_nav)
+        headers = {'User-agent':'Mozilla/5.0','Connection':'keep-alive'}
+        response = requests.get(url,headers=headers)
+        json = response.json()
+        num_results = self.max_results / 25
         i = 0
-        count = 25
-        while (i<self.page_depth):
-            if (i > 0):
-                if (self.is_time):
-                    nextPageStr = ("&count=" + str(count) + "&after=")
-                else :
-                    nextPageStr = ("?count=" + str(count) + "&after=")
-                count +=25
-                nextPageID = lastDiv['data-fullname']
-                nextPage =  page_url + nextPageStr + nextPageID
-                URL.append(nextPage)
+        while (i < num_results):
+            token = json['token']
+            for postId in json['postIds']:
+                try :
+                    music_link = json['posts'][postId]['source']['url']
+                    if ("youtube" in music_link and len(music_link)<=43):
+                        video_ids.append(music_link[32:43])
+                except TypeError:
+                    print 'Whoops! Lost one due to nullness'
+            next_url = url + "?after=" + token 
+            response = requests.get(next_url,headers=headers)
+            json = response.json()
+            i += 1
 
-
-            else :
-                URL.append(page_url)
-
-            #print (URL[i])
-            request = requests.get(URL[i],headers = {'User-agent':'your bot 0.1'})
-            soup = BeautifulSoup(request.text,'html.parser')
-            links = soup.find_all('div',attrs={'data-subreddit':self.subreddit_name})
-            try:
-                lastDiv = links[(len(links)-1)]
-            except IndexError as e:
-                message = "Something went wrong : " +  str(e) + ". No links were found. We're working on that."
-                print (message)
-            #print (lastDiv['data-fullname'])
-            i+=1
-
-            for link in links:
-                music = link['data-url']
-
-                if ((str(music)[:23]) == "https://www.youtube.com"):
-                    video_ids.append((str(music)[32:43]))
-                    #print (str(music)[32:43])
-                elif ((str(music)[:21]) == "https://www.youtu.be/"):
-                    video_ids.append((str(music)[21:]))
-                    #print (str(music)[21:])
+        difference = len(video_ids) - self.max_results
+        if (difference  > 0):
+            difference *= -1
+            video_ids = video_ids[:difference]
 
         return video_ids
 
     def get_authentication_services(self):
 
-        flow = InstalledAppFlow.from_client_secrets_file(self.client_secrets_file, self.SCOPES      
+        flow = InstalledAppFlow.from_client_secrets_file(self.client_secrets_file, self.SCOPES)      
         credentials = flow.run_local_server()
         return build(self.API_SERVICE_NAME, self.API_VERSION, credentials = credentials)
 
@@ -203,7 +168,7 @@ class Subreddit_YT_Playlist:
             good_kwargs[key] = value
       return good_kwargs
 
-    def insert_items(self,client, properties,**kwargs):
+    def insert_song(self,client, properties,**kwargs):
 
         resource = self.build_resource(properties)
         kwargs = self.remove_empty_kwargs(**kwargs)
@@ -223,18 +188,19 @@ class Subreddit_YT_Playlist:
                     break
 
 if __name__ == '__main__':
-  obj = Subreddit_YT_Playlist()
-  args = obj.app_args()
-  video_ids = obj.get_video_ids();
+  youtube_playlist = Subreddit_YT_Playlist()
+  args = youtube_playlist.app_args()
+  video_ids = youtube_playlist.get_video_ids();
 
+  print video_ids
   os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
-  client = obj.get_authentication_services()
+  client = youtube_playlist.get_authentication_services()
 
-  p_id = obj.make_playlist(client,args)
+  playlist_id = youtube_playlist.make_playlist(client,args)
 
   for v_id in video_ids:
-      obj.insert_items(client,
-      {'snippet.playlistId': p_id,
+      youtube_playlist.insert_song(client,
+      {'snippet.playlistId': playlist_id,
       'snippet.resourceId.kind': 'youtube#video',
       'snippet.resourceId.videoId': v_id},
       part='snippet')

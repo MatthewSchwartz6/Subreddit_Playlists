@@ -1,0 +1,690 @@
+composer - user-made compositions and discussions
+baroque
+classicalmusic
+contemporary
+concertband
+choralmusic
+ChamberMusic
+EarlyMusic - music from the Renaissance and earlier
+earlymusicalnotation - manuscripts and facsimiles from late antiquity through 1600 CE
+ElitistClassical
+icm
+Opera
+orchestra
+acidhouse
+ambientmusic
+AStateOfTrance
+AtmosphericDnB
+BigBeat
+boogiemusic - 80s sounds, timeless grooves!
+breakbeat
+breakcore
+brostep
+chicagohouse
+chillout
+Chipbreak
+Chiptunes
+complextro
+cxd - a mix of underground experimental and club music
+darkstep
+deephouse
+DnB
+DubStep
+EDM
+EBM - Electronic Body Music
+electronicdancemusic
+ElectronicJazz
+ElectronicBlues
+electrohiphop
+electrohouse
+electronicmagic
+ElectronicMusic
+electropop
+electroswing
+ExperimentalMusic
+fidget
+filth
+frenchelectro
+frenchhouse
+funkhouse
+fusiondancemusic
+futurebeats
+FutureFunkAirlines
+FutureGarage
+futuresynth
+gabber
+glitch
+glitchop
+Grime
+happyhardcore
+hardhouse
+hardstyle
+house
+idm
+industrialmusic
+ItaloDisco
+latinhouse
+LiquidDubstep
+mashups
+melodichouse
+minimal
+mixes
+moombahcore
+nightstep
+OldskoolRave - underground rave classics of the late 80s and early 90s
+Outrun
+theOverload - gritty, well-selected techno and house cuts (with some lo-fi)
+partymusic
+plunderphonics
+psybient
+PsyBreaks
+psytrance
+purplemusic
+raggajungle
+RealDubstep
+skweee
+swinghouse
+tech_house
+Techno
+Trance
+tranceandbass - the energy of drum and bass with the sounds of trance
+trap
+tribalbeats
+TropicalHouse
+ukfunky
+witchhouse 
+wuuB
+80sHardcorePunk
+90sAlternative
+90sPunk
+90sRock
+AlternativeRock
+AltCountry
+AORMelodic
+ausmetal - Australian metal
+BlackMetal
+bluegrass
+Blues
+bluesrock
+Boneyard - 20th century hard rock
+CanadianClassicRock
+CanadianMusic
+ClassicRock
+country
+Christcore
+crunkcore
+deathcore
+deathmetal
+Djent
+DoomMetal
+Drone
+Emo
+EmoScreamo
+epicmetal
+flocked - indie rock, alternative rock, garage rock, and related genres
+folk
+folkmetal
+folkpunk
+folkrock
+folkunknown
+GaragePunk
+GothicMetal
+Grunge
+hardcore
+HardRock
+horrorpunk - horror punk, psychobilly, and related genres
+indie_rock
+jrock
+krautrock
+LadiesofMetal
+MathRock
+melodicdeathmetal
+MelodicMetal
+MetalNews
+Metalmusic
+metal
+metalcore
+ModernRockMusic
+monsterfuzz
+neopsychedelia
+NewWave
+noiserock
+numetal
+pianorock
+poppunkers
+PostHardcore
+PostRock
+powermetal
+powerpop
+ProgMetal
+progrockmusic
+PsychedelicRock
+punk
+Punkskahardcore
+Punk_Rock
+raprock - rap rock, rap metal, & rapcore
+Rock
+shoegaze
+stonerrock
+symphonicblackmetal
+symphonicmetal
+synthrock
+ThrowbackCore
+truethrash
+Truemetal
+OutlawCountry
+WomenRock
+80sHipHop
+90sHipHop
+altrap
+asianrap
+backpacker
+backspin
+BayRap
+ChapHop
+ChiefKeef - Chief Keef, GBE, drill, and more
+DrillandBop
+Emo_Trap
+Gfunk
+hiphopheads
+hiphopheadsnorthwest
+hiphop101
+MemphisRap
+NYrap
+Rap
+raprock - rap rock, rap metal, & rapcore
+rapverses
+rhymesandbeats
+trapmuzik
+ukhiphopheads
+undergroundchicago
+LofiHipHop
+2010smusic
+2000smusic
+90sMusic
+80sremixes
+80sMusic
+70sMusic
+60sMusic
+50sMusic
+AfricanMusic
+afrobeat
+balkanbrass
+balkanmusic
+brazilianmusic
+britpop
+CroatianMusic
+Flamenco
+Irishmusic
+ItalianMusic
+jpop - Japanese
+KoreanRock 
+kpop - Korean
+RoMusic - Romanian
+spop - Sweden
+somluso - Portuguese
+UKbands
+WorldMusic
+70s
+Acappella
+AcousticCovers
+ambientfolk
+animemusic
+boomswing
+bossanova
+carmusic
+concerts
+chillmusic
+cpop
+Complextro 
+dembow
+disco
+DreamPop
+dub
+Elephant6
+ETIMusic - a place for epic, trailer, and instrumental music
+Exotica
+FilmMusic
+FunkSouMusic
+gamemusic
+GamesMusicMixMash 
+GunslingerMusic 
+GypsyJazz
+IndieFolk
+jambands
+jazz
+JazzFusion
+JazzInfluence
+listentoconcerts
+klezmer
+lt10k - links to music videos with less than 10,000 views
+MedievalMusic
+MelancholyMusic
+minimalism_music
+motown
+MusicForConcentration
+muzyka
+NuDisco
+oldiemusic
+OldiesMusic - for those who miss and enjoy music from back in the day
+pianocovers
+popheads - for discussion of pop music
+PoptoRock
+QuietStorm
+rainymood
+recordstorefinds
+reggae
+remixxd - links to cover songs from around the world
+RetroMusic
+rnb
+rootsmusic
+SalsaMusic 
+Ska
+Soca - all about the TnT sound. Soca, Calypso, or similar music
+songbooks
+Soulies
+SoulDivas
+SoundsVintage
+SpaceMusic
+SurfPunk 
+swing
+Tango
+TheRealBookVideos
+TouhouMusic
+TraditionalMusic
+treemusic
+triphop
+vaporwave 
+VintageObscura - old and rare records 
+vocaloid
+audioinsurrection - a backdrop for sharing radical music from all genres. 
+albumaday - one album recommendation every day
+albumoftheday - different album every day of the year!
+Albums
+albumlisteners  
+bassheavy
+BinauralMusic
+BoyBands
+Catchysongs
+Chopping
+CircleMusic
+CoverSongs
+cyberpunk_music
+DANCEPARTY
+danktunes
+deepcuts -  favorite lesser known tracks
+EarlyMusic - music from the Renaissance and earlier
+earlymusicalnotation - manuscripts and facsimiles from late antiquity through 1600 CE
+FemaleVocalists
+festivals
+findaband
+FitTunes - whatever you like to listen to while working out
+FreeAlbums
+freemusic
+Frisson
+gameofbands
+GayMusic
+germusic - for music by German artists or in the German language
+gethightothis
+GuiltyPleasureMusic
+HeadNodders
+heady
+HeyThatWasIn
+HighFidelity
+ifyoulikeblank
+ilikethissong
+indie - the place to share and discuss indie music
+IndieWok
+Indieheads
+Instrumentals
+ipm
+IsolatedVocals
+LeeHallMusic
+LetsTalkMusic
+listentoconcerts
+listentodynamic - Share and discover music not taking part in the Loudness War
+listentomusic
+listentonews
+ListenToThis
+ListenToUs
+livemusic
+llawenyddhebddiwedd - Welsh language music
+LongerJams
+Lyrics
+mainstreammusic
+makemeaplaylist - making playlists by requesting a category
+MiddleEasternMusic
+MLPtunes 
+Music
+MusicAlbums - a place to share entire albums in playlist form
+musicanova - Portuguese version of /r/listentothis
+musicsuggestions
+MusicToSleepTo
+musicvideos
+NameThatSong 
+NewAlbums - the place to share all new and upcoming releases
+newmusic
+onealbumaweek
+partymusic
+RedditOriginals
+RepublicOfMusic
+RoyaltyFreeMusic
+runningmusic
+ScottishMusic
+SlavicMusicVideos
+songwriterscircle - a critique-based based community for songwriters to develop their musical compositions and analytical skills through participation
+SpotifyMusic - a place to share Spotify URIs
+ThemVoices
+TodaysFavoriteSong
+unheardof
+WhatIListenTo
+WTFMusicVideos
+AlbumArtPorn
+albumreviews
+Audio
+Audiophile  
+audiophilemusic - for those with an affliction for high fidelity sound
+AustinMusicians
+bandmembers
+CarAV
+CassetteCulture
+Cd_collectors
+ConcertTickets
+germusic - for music by German artists or in the German language
+glastonbury_festival
+ICoveredASong
+ifyoulikeblank
+independentmusic
+ineedasong/
+japanesemusic
+Jazzguitar - a community for jazz guitarists
+koreanmusic
+LubbockMusicians - current day music scene of Buddy Holly's hometown
+mixcd
+musiccritics
+MusicalComedy 
+musicessentials
+MusicEventMeetUp
+musicfestivals
+musicnews
+MusiciansBlogs
+Musicians
+NeedVocals - a subreddit to help composers find vocal talent to cooperate in the creation of songs
+OSOM
+performer
+RecordClub
+recordstore
+redditmusicclub
+Rockband
+RockbandChallenges
+TheSongRemainsTheSame
+TipOfMyTongue
+TouringMusicians
+vinyl
+VinylReleases
+WeAreTheMusicMakers
+300Songs
+AcousticOriginals
+BedroomBands
+Composer
+ICoveredASong
+independentmusic
+MusicCritique
+MusicInTheMaking
+MyMusic
+RadioReddit
+RoastMyTrack
+ratemyband
+Songwriters
+TheseAreOurAlbums
+ThisIsOurMusic
+UserProduced
+WereOnSpotify
+WhiteLabels
+311
+ADTR - A Day to Remember
+AliciaKeys
+ArcadeFire
+ArethaFranklin
+APerfectCircle
+AvengedSevenfold
+TheAvettBrothers
+BABYMETAL
+BaysideIsACult
+TheBeachBoys
+Beatles
+billytalent
+Blink182
+BMSR - Black Moth Super Rainbow/Tobacco/Demon Queen
+BoBurnham
+boniver
+brandnew
+BruceSpringsteen
+Burial
+ChanceTheRapper
+cher
+ChiefKeef
+ChristinaAguilera
+cityandcolour
+Coldplay
+CutCopy
+TheCure
+DavidBowie
+Deadmau5
+DeathCabforCutie
+DeathGrips
+DeepPurple
+Deftones - Deftones/Team Sleep/Palms/Crosses/Sol Invicto
+DieAntwoord
+DMB - Dave Matthews Band
+donaldglover - Childish Gambino
+Drizzy
+elliegoulding
+Eminem
+empireofthesun
+EnterShikari
+Evanescence
+FallOutBoy
+feedme
+FirstAidKit
+flaminglips
+fleet_foxes
+Foreigner
+FrankOcean
+franzferdinand
+finkworld
+Ghostbc  
+Gorillaz
+grateful_dead
+Greenday
+GunsNRoses
+Incubus
+JackJohnson
+JackWhite
+JanetJackson
+JackJohnson
+Kanye
+KendrickLamar
+kings_of_leon
+Korn
+ladygaga
+lanadelrey
+lennykravitz
+Led_Zeppelin
+lorde
+macdemarco
+Macklemore
+Madonna
+Madlib
+Manowar
+MariahCarey
+MattAndKim
+Megadeth
+Metallica
+mfdoom
+MGMT
+MichaelJackson
+MinusTheBear
+ModestMouse
+Morrissey
+mrbungle
+MyChemicalRomance
+Muse
+NeilYoung
+NIN
+Nirvana
+NOFX
+oasis
+officialbadcompany
+ofMontreal
+OFWGKTA - Odd Future
+Opeth
+OutKast
+panicatthedisco
+PearlJam
+phish
+Pinback - Pinback/Thingy/Goblin Cock/Three Mile Pilot
+PinkFloyd
+ThePolice
+porcupinetree
+prettylights
+Puscifer
+Queen
+Radiohead
+RATM
+RedHotChiliPeppers
+RelientK
+rhymesandbeats
+RiseAgainst
+robertplant
+SaveMoneyCrew
+SigurRos
+Slayer
+slipknot
+SmashingPumpkins
+SOCOTRAband
+SparksFTW
+TameImpala
+TaylorSwift
+TeganAndSara
+TheKillers
+TheMagneticZeros
+TheOffspring
+The_Residents
+TheStrokes
+TheWeeknd
+tmbg - They Might Be Giants
+ToolBand
+tragicallyhip
+trunknation - home of rock and metal by Eddie Trunk
+TwentyOnePilots
+U2Band
+Umphreys
+UnicornsMusic
+velvetunderground
+Ween - Ween/The Moistboyz 
+weezer
+WeirdAl
+yesband
+Zappa
+AlbumArtPorn
+BandPorn
+concertporn
+guitarPorn
+HipHopImages
+InstrumentPorn
+MetalMemes
+MusicBattlestations
+MusicPics
+DJs
+PirateRadio
+Spotify
+Turntablists - (≈ scratch DJs). DJs doing live remixes, scratching, juggling, mixing it up!
+abletonclass
+bandmembers
+basslessons
+earlymusicalnotation - manuscripts and facsimiles from late antiquity through 1600 CE
+Ethnomusicology
+ExplainThisSong
+GuitarLessons
+LearnMusic
+MusicEd
+musicindustry
+MusicInstructor
+musicology - historical musicology
+MusicTheory
+solresol - solfège as language
+tabs
+Accordion
+banjo
+Bass
+bassplaying 
+Bassoon
+beatbox
+brass
+Cello
+Clarinet
+ClassicalGuitar
+Concertina - all concertina-related things
+DoubleBass
+Drummers
+Drums
+Flute
+Guitar
+GuitarPlaying
+hammondorgan
+handpan
+harmonica
+Horn
+keys
+luthier
+Mandolin
+Oboe
+Ocarina
+Percussion
+Percussionists
+Piano
+Piccolo
+PlayingGuitar
+Recorder - for those interested in Renaissance/Baroque recorders
+saxophone
+saxophonics 
+Singing - for singers of every genre, style, age and experience
+synthesizers
+Telecaster
+Trombone
+Trumpet
+tuba
+ukulele
+viola
+Violinist
+AudioEngineering
+EDMproduction
+FL_Studio
+ableton
+AbletonLive
+AudioPost - a place to discuss sound editing and mixing for media
+Cubase
+futurebeatproducers
+GameAudio - discussion about the process of creating audio for games
+linuxaudio
+LocationSound - for those who record sound to picture in the field
+Logic_Studio
+makinghiphop
+MaxMSP
+ProductionLounge
+Protools
+RateMyAudio - when you need a critique for mix, mastering, or some other facet of audio work
+Reaper
+Reasoners
+Remix
+Renoise
+Samplehunters
+SongStems
+VSTi: virtual instruments, effects, and plugins
+DIYGear
+diyguitar
+Gear4Sale
+GuitarPedals
+skullcandy 
+Synthesizers
