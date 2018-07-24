@@ -18,7 +18,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 
 
 class Subreddit_YT_Playlist:
-    client_secrets_file = ""
+    client_secrets_file = "client_secret.json"
     SCOPES = ['https://www.googleapis.com/auth/youtube']
     API_SERVICE_NAME = 'youtube'
     API_VERSION = 'v3'
@@ -67,7 +67,7 @@ class Subreddit_YT_Playlist:
             valid = music_file.readlines()
             valid = [v[:-1] for v in valid]
             return valid
-            
+
     def get_video_ids(self):
 
         video_ids = []
@@ -84,9 +84,9 @@ class Subreddit_YT_Playlist:
                     music_link = json['posts'][postId]['source']['url']
                     if ("youtube" in music_link and len(music_link)<=43):
                         video_ids.append(music_link[32:43])
-                except TypeError:
-                    print 'Whoops! Lost one due to nullness'
-            next_url = url + "?after=" + token 
+                except TypeError as error:
+                    e = error #one could not be parsed
+            next_url = url + "?after=" + token
             response = requests.get(next_url,headers=headers)
             json = response.json()
             i += 1
@@ -100,7 +100,7 @@ class Subreddit_YT_Playlist:
 
     def get_authentication_services(self):
 
-        flow = InstalledAppFlow.from_client_secrets_file(self.client_secrets_file, self.SCOPES)      
+        flow = InstalledAppFlow.from_client_secrets_file(self.client_secrets_file, self.SCOPES)
         credentials = flow.run_local_server()
         return build(self.API_SERVICE_NAME, self.API_VERSION, credentials = credentials)
 
@@ -192,7 +192,6 @@ if __name__ == '__main__':
   args = youtube_playlist.app_args()
   video_ids = youtube_playlist.get_video_ids();
 
-  print video_ids
   os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
   client = youtube_playlist.get_authentication_services()
 
