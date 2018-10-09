@@ -63,7 +63,7 @@ class Subreddit_YT_Playlist:
         return args
 
     def get_valid_subreddits(self):
-        with open('music_subreddit_list.txt','r') as music_file:
+        with open('subreddit_list.txt','r') as music_file:
             valid = music_file.readlines()
             valid = [v[:-1] for v in valid]
             return valid
@@ -86,16 +86,16 @@ class Subreddit_YT_Playlist:
                         video_ids.append(music_link[32:43])
                 except TypeError as error:
                     e = error #one could not be parsed
-            next_url = url + "?after=" + token
-            response = requests.get(next_url,headers=headers)
-            json = response.json()
+            if (token is not None):
+                next_url = url + "?after=" + token
+                response = requests.get(next_url,headers=headers)
+                json = response.json()
             i += 1
 
         difference = len(video_ids) - self.max_results
         if (difference  > 0):
             difference *= -1
-            video_ids = video_ids[:difference]
-
+            video_ids = video_ids[:difference] 
         return video_ids
 
     def get_authentication_services(self):

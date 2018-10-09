@@ -1,12 +1,12 @@
-composer - user-made compositions and discussions
+composer
 baroque
 classicalmusic
 contemporary
 concertband
 choralmusic
 ChamberMusic
-EarlyMusic - music from the Renaissance and earlier
-earlymusicalnotation - manuscripts and facsimiles from late antiquity through 1600 CE
+EarlyMusic
+earlymusicalnotation
 ElitistClassical
 icm
 Opera
@@ -16,7 +16,7 @@ ambientmusic
 AStateOfTrance
 AtmosphericDnB
 BigBeat
-boogiemusic - 80s sounds, timeless grooves!
+boogiemusic
 breakbeat
 breakcore
 brostep
@@ -25,13 +25,13 @@ chillout
 Chipbreak
 Chiptunes
 complextro
-cxd - a mix of underground experimental and club music
+cxd
 darkstep
 deephouse
 DnB
 DubStep
 EDM
-EBM - Electronic Body Music
+EBM
 electronicdancemusic
 ElectronicJazz
 ElectronicBlues
@@ -71,9 +71,9 @@ minimal
 mixes
 moombahcore
 nightstep
-OldskoolRave - underground rave classics of the late 80s and early 90s
+OldskoolRave
 Outrun
-theOverload - gritty, well-selected techno and house cuts (with some lo-fi)
+theOverload
 partymusic
 plunderphonics
 psybient
@@ -87,7 +87,7 @@ swinghouse
 tech_house
 Techno
 Trance
-tranceandbass - the energy of drum and bass with the sounds of trance
+tranceandbass
 trap
 tribalbeats
 TropicalHouse
@@ -101,12 +101,12 @@ wuuB
 AlternativeRock
 AltCountry
 AORMelodic
-ausmetal - Australian metal
+ausmetal
 BlackMetal
 bluegrass
 Blues
 bluesrock
-Boneyard - 20th century hard rock
+Boneyard
 CanadianClassicRock
 CanadianMusic
 ClassicRock
@@ -121,7 +121,7 @@ Drone
 Emo
 EmoScreamo
 epicmetal
-flocked - indie rock, alternative rock, garage rock, and related genres
+flocked
 folk
 folkmetal
 folkpunk
@@ -132,7 +132,7 @@ GothicMetal
 Grunge
 hardcore
 HardRock
-horrorpunk - horror punk, psychobilly, and related genres
+horrorpunk
 indie_rock
 jrock
 krautrock
@@ -162,7 +162,7 @@ PsychedelicRock
 punk
 Punkskahardcore
 Punk_Rock
-raprock - rap rock, rap metal, & rapcore
+raprock
 Rock
 shoegaze
 stonerrock
@@ -182,7 +182,7 @@ backpacker
 backspin
 BayRap
 ChapHop
-ChiefKeef - Chief Keef, GBE, drill, and more
+ChiefKeef
 DrillandBop
 Emo_Trap
 Gfunk
@@ -192,7 +192,7 @@ hiphop101
 MemphisRap
 NYrap
 Rap
-raprock - rap rock, rap metal, & rapcore
+raprock
 rapverses
 rhymesandbeats
 trapmuzik
@@ -217,12 +217,12 @@ CroatianMusic
 Flamenco
 Irishmusic
 ItalianMusic
-jpop - Japanese
+jpop
 KoreanRock 
-kpop - Korean
-RoMusic - Romanian
-spop - Sweden
-somluso - Portuguese
+kpop
+RoMusic
+spop
+somluso
 UKbands
 WorldMusic
 70s
@@ -242,7 +242,7 @@ disco
 DreamPop
 dub
 Elephant6
-ETIMusic - a place for epic, trailer, and instrumental music
+ETIMusic
 Exotica
 FilmMusic
 FunkSouMusic
@@ -257,7 +257,7 @@ JazzFusion
 JazzInfluence
 listentoconcerts
 klezmer
-lt10k - links to music videos with less than 10,000 views
+lt10k
 MedievalMusic
 MelancholyMusic
 minimalism_music
@@ -266,21 +266,21 @@ MusicForConcentration
 muzyka
 NuDisco
 oldiemusic
-OldiesMusic - for those who miss and enjoy music from back in the day
+OldiesMusic
 pianocovers
-popheads - for discussion of pop music
+popheads
 PoptoRock
 QuietStorm
 rainymood
 recordstorefinds
 reggae
-remixxd - links to cover songs from around the world
+remixxd
 RetroMusic
 rnb
 rootsmusic
 SalsaMusic 
 Ska
-Soca - all about the TnT sound. Soca, Calypso, or similar music
+Soca
 songbooks
 Soulies
 SoulDivas
@@ -295,11 +295,11 @@ TraditionalMusic
 treemusic
 triphop
 vaporwave 
-VintageObscura - old and rare records 
+VintageObscura
 vocaloid
-audioinsurrection - a backdrop for sharing radical music from all genres. 
-albumaday - one album recommendation every day
-albumoftheday - different album every day of the year!
+audioinsurrection
+albumaday
+albumoftheday
 Albums
 albumlisteners  
 bassheavy
@@ -312,19 +312,19 @@ CoverSongs
 cyberpunk_music
 DANCEPARTY
 danktunes
-deepcuts -  favorite lesser known tracks
-EarlyMusic - music from the Renaissance and earlier
-earlymusicalnotation - manuscripts and facsimiles from late antiquity through 1600 CE
+deepcuts
+EarlyMusic
+earlymusicalnotation
 FemaleVocalists
 festivals
 findaband
-FitTunes - whatever you like to listen to while working out
+FitTunes
 FreeAlbums
 freemusic
 Frisson
 gameofbands
 GayMusic
-germusic - for music by German artists or in the German language
+germusic
 gethightothis
 GuiltyPleasureMusic
 HeadNodders
@@ -333,7 +333,7 @@ HeyThatWasIn
 HighFidelity
 ifyoulikeblank
 ilikethissong
-indie - the place to share and discuss indie music
+indie
 IndieWok
 Indieheads
 Instrumentals
@@ -342,27 +342,27 @@ IsolatedVocals
 LeeHallMusic
 LetsTalkMusic
 listentoconcerts
-listentodynamic - Share and discover music not taking part in the Loudness War
+listentodynamic
 listentomusic
 listentonews
 ListenToThis
 ListenToUs
 livemusic
-llawenyddhebddiwedd - Welsh language music
+llawenyddhebddiwedd
 LongerJams
 Lyrics
 mainstreammusic
-makemeaplaylist - making playlists by requesting a category
+makemeaplaylist
 MiddleEasternMusic
 MLPtunes 
 Music
-MusicAlbums - a place to share entire albums in playlist form
-musicanova - Portuguese version of /r/listentothis
+MusicAlbums
+musicanova
 musicsuggestions
 MusicToSleepTo
 musicvideos
 NameThatSong 
-NewAlbums - the place to share all new and upcoming releases
+NewAlbums
 newmusic
 onealbumaweek
 partymusic
@@ -372,8 +372,8 @@ RoyaltyFreeMusic
 runningmusic
 ScottishMusic
 SlavicMusicVideos
-songwriterscircle - a critique-based based community for songwriters to develop their musical compositions and analytical skills through participation
-SpotifyMusic - a place to share Spotify URIs
+songwriterscircle
+SpotifyMusic
 ThemVoices
 TodaysFavoriteSong
 unheardof
@@ -383,23 +383,23 @@ AlbumArtPorn
 albumreviews
 Audio
 Audiophile  
-audiophilemusic - for those with an affliction for high fidelity sound
+audiophilemusic
 AustinMusicians
 bandmembers
 CarAV
 CassetteCulture
 Cd_collectors
 ConcertTickets
-germusic - for music by German artists or in the German language
+germusic
 glastonbury_festival
 ICoveredASong
 ifyoulikeblank
 independentmusic
 ineedasong/
 japanesemusic
-Jazzguitar - a community for jazz guitarists
+Jazzguitar
 koreanmusic
-LubbockMusicians - current day music scene of Buddy Holly's hometown
+LubbockMusicians
 mixcd
 musiccritics
 MusicalComedy 
@@ -409,7 +409,7 @@ musicfestivals
 musicnews
 MusiciansBlogs
 Musicians
-NeedVocals - a subreddit to help composers find vocal talent to cooperate in the creation of songs
+NeedVocals
 OSOM
 performer
 RecordClub
@@ -442,7 +442,7 @@ UserProduced
 WereOnSpotify
 WhiteLabels
 311
-ADTR - A Day to Remember
+ADTR
 AliciaKeys
 ArcadeFire
 ArethaFranklin
@@ -455,7 +455,7 @@ TheBeachBoys
 Beatles
 billytalent
 Blink182
-BMSR - Black Moth Super Rainbow/Tobacco/Demon Queen
+BMSR
 BoBurnham
 boniver
 brandnew
@@ -474,10 +474,10 @@ Deadmau5
 DeathCabforCutie
 DeathGrips
 DeepPurple
-Deftones - Deftones/Team Sleep/Palms/Crosses/Sol Invicto
+Deftones
 DieAntwoord
-DMB - Dave Matthews Band
-donaldglover - Childish Gambino
+DMB
+donaldglover
 Drizzy
 elliegoulding
 Eminem
@@ -537,13 +537,13 @@ NOFX
 oasis
 officialbadcompany
 ofMontreal
-OFWGKTA - Odd Future
+OFWGKTA
 Opeth
 OutKast
 panicatthedisco
 PearlJam
 phish
-Pinback - Pinback/Thingy/Goblin Cock/Three Mile Pilot
+Pinback
 PinkFloyd
 ThePolice
 porcupinetree
@@ -573,16 +573,16 @@ TheOffspring
 The_Residents
 TheStrokes
 TheWeeknd
-tmbg - They Might Be Giants
+tmbg
 ToolBand
 tragicallyhip
-trunknation - home of rock and metal by Eddie Trunk
+trunknation
 TwentyOnePilots
 U2Band
 Umphreys
 UnicornsMusic
 velvetunderground
-Ween - Ween/The Moistboyz 
+Ween
 weezer
 WeirdAl
 yesband
@@ -599,11 +599,11 @@ MusicPics
 DJs
 PirateRadio
 Spotify
-Turntablists - (≈ scratch DJs). DJs doing live remixes, scratching, juggling, mixing it up!
+Turntablists
 abletonclass
 bandmembers
 basslessons
-earlymusicalnotation - manuscripts and facsimiles from late antiquity through 1600 CE
+earlymusicalnotation
 Ethnomusicology
 ExplainThisSong
 GuitarLessons
@@ -611,9 +611,9 @@ LearnMusic
 MusicEd
 musicindustry
 MusicInstructor
-musicology - historical musicology
+musicology
 MusicTheory
-solresol - solfège as language
+solresol
 tabs
 Accordion
 banjo
@@ -625,7 +625,7 @@ brass
 Cello
 Clarinet
 ClassicalGuitar
-Concertina - all concertina-related things
+Concertina
 DoubleBass
 Drummers
 Drums
@@ -646,10 +646,10 @@ Percussionists
 Piano
 Piccolo
 PlayingGuitar
-Recorder - for those interested in Renaissance/Baroque recorders
+Recorder
 saxophone
 saxophonics 
-Singing - for singers of every genre, style, age and experience
+Singing
 synthesizers
 Telecaster
 Trombone
@@ -663,18 +663,18 @@ EDMproduction
 FL_Studio
 ableton
 AbletonLive
-AudioPost - a place to discuss sound editing and mixing for media
+AudioPost
 Cubase
 futurebeatproducers
-GameAudio - discussion about the process of creating audio for games
+GameAudio
 linuxaudio
-LocationSound - for those who record sound to picture in the field
+LocationSound
 Logic_Studio
 makinghiphop
 MaxMSP
 ProductionLounge
 Protools
-RateMyAudio - when you need a critique for mix, mastering, or some other facet of audio work
+RateMyAudio
 Reaper
 Reasoners
 Remix
